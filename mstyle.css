@@ -4,7 +4,31 @@
 }
 header{
     width: 100%;
-    position: fixed;
     background-color: black;
     height: 150px;
+}
+main{
+    margin: 25px auto;
+    width: 1000px;
+    height: 1000px;
+}
+.content{
+    border: 1px solid black;
+    box-sizing: border-box;
+    width: 68%;
+    height: 1000px;
+    float: left;
+}
+.sidebar{
+    border: 1px solid black;
+    box-sizing: border-box;
+    width: 30%;
+    height: 1000px;
+    float: right;
+}
+footer{
+    width: 100%;
+    background-color: black;
+    height: 75px;
+    margin-top: 25px;
 }
