@@ -8,9 +8,11 @@ header{
     height: 150px;
 }
 main{
+    text-align: center;
     margin: 25px auto;
     width: 1000px;
     height: 1000px;
+    padding: 10px;
 }
 .content{
     border: 1px solid black;
@@ -18,6 +20,7 @@ main{
     width: 68%;
     height: 1000px;
     float: left;
+
 }
 .sidebar{
     border: 1px solid black;
@@ -31,4 +34,10 @@ footer{
     background-color: black;
     height: 75px;
     margin-top: 25px;
+}
+.post{
+    margin-top: 10px;
+    border: 1px solid black;
+    box-sizing: border-box;
+    margin: 10px auto;
 }
